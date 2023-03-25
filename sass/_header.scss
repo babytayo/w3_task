@@ -1,0 +1,40 @@
+@import "config.scss";
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  justify-content: space-around;
+  ul {
+    margin: 2rem 0 0 0;
+    display: flex;
+    flex-basis: 80%;
+    background: $nav_bg;
+    justify-content: space-around;
+    li {
+      list-style-type: none;
+      padding: 1.5rem 4rem;
+      font-size: 20px;
+      a {
+        text-decoration: none;
+        color: $link_color;
+      }
+    }
+  }
+  .icon_section {
+    margin-top: 2rem;
+    .icon {
+      width: 20px;
+      margin-right: 10px;
+    }
+    p {
+      color: #a6767f;
+      font-size: 15px;
+      padding: 0.3rem;
+    }
+  }
+}
+
+a:hover {
+  font-weight: bolder;
+}

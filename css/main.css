@@ -1,0 +1,196 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+header ul {
+  margin: 2rem 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  background: #ffcdd0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+header ul li {
+  list-style-type: none;
+  padding: 1.5rem 4rem;
+  font-size: 20px;
+}
+header ul li a {
+  text-decoration: none;
+  color: #886164;
+}
+header .icon_section {
+  margin-top: 2rem;
+}
+header .icon_section .icon {
+  width: 20px;
+  margin-right: 10px;
+}
+header .icon_section p {
+  color: #a6767f;
+  font-size: 15px;
+  padding: 0.3rem;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+.lower_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 70%;
+}
+.lower_wrapper .first_child {
+  width: 60%;
+  height: 100%;
+  padding-left: 8rem;
+}
+.lower_wrapper .first_child h1 {
+  font-size: 50px;
+  color: #a67079;
+  font-family: "Fraunces", sans-serif;
+}
+.lower_wrapper .first_child .first_p {
+  font-size: 20px;
+  padding: 1rem 0;
+  font-weight: lighter;
+  color: #a6767f;
+}
+.lower_wrapper .first_child .second_p {
+  color: #a6767f;
+}
+.lower_wrapper .first_child .third_p {
+  margin-top: 2rem;
+  color: #886164;
+  background: #ffcdd0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.lower_wrapper .first_child button {
+  padding: 0.5rem 2rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  background: #a6767f;
+  color: #fef2f2;
+  font-size: 18px;
+  border: none;
+}
+.lower_wrapper .second_child {
+  width: 40%;
+  border-top: 5px solid #886164;
+  border-left: 5px solid #886164;
+}
+.lower_wrapper .second_child img {
+  width: 95%;
+}
+
+.contact_box {
+  background: #fee8ea;
+  width: 50%;
+  margin-top: 5rem;
+  margin-left: -8rem;
+  text-align: right;
+  color: #a6767f;
+}
+
+.form_side {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#ffcdd0), to(#886164));
+  background: linear-gradient(to right, #ffcdd0 0%, #886164);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.form_side div {
+  width: 100%;
+  padding: 0.5rem 3rem;
+}
+.form_side div img {
+  width: 15px;
+}
+.form_side form {
+  padding: 1rem 2.7rem;
+  background: #ffcdd0;
+  border-radius: 10px;
+}
+.form_side form label {
+  color: #886164;
+  font-size: 18px;
+}
+.form_side form input {
+  padding: 0.8rem 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+}
+.form_side form #submit {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 10px;
+  background: #886164;
+  outline: 3px solid #fff;
+  font-size: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background: #fef2f2;
+  font-family: "Inter", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}/*# sourceMappingURL=main.css.map */
