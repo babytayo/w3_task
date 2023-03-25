@@ -1,3 +1,4 @@
+@import "header.scss";
 .lower_wrapper {
   display: flex;
   flex-direction: row;
@@ -39,6 +40,7 @@
       color: $wrapper_bg;
       font-size: 18px;
       border: none;
+      margin-bottom: 6rem;
     }
   }
   .second_child {
@@ -53,12 +55,15 @@
 
 .contact_box {
   background: #fee8ea;
-  width: 50%;
-  margin-top: 5rem;
-  margin-left: -8rem;
-  text-align: right;
-
+  margin: 5rem -2 2rem 1rem;
+  text-align: left;
+  font-size: 13px;
   color: #a6767f;
+}
+
+.btn_box {
+  display: flex;
+  width: 100%;
 }
 
 @import "mobile.scss";
