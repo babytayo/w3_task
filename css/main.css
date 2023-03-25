@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,7 +66,8 @@ a:hover {
   padding-left: 8rem;
 }
 .lower_wrapper .first_child h1 {
-  font-size: 50px;
+  font-size: 45px;
+  font-weight: 700;
   color: #a67079;
   font-family: "Fraunces", sans-serif;
 }
@@ -235,9 +237,8 @@ a:hover {
   }
 }
 .form_side {
+  height: 100vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#ffcdd0), to(#886164));
-  background: linear-gradient(to right, #ffcdd0 0%, #886164);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -263,6 +264,7 @@ a:hover {
   padding: 1rem 2.7rem;
   background: #ffcdd0;
   border-radius: 10px;
+  width: 30%;
 }
 .form_side form label {
   color: #886164;
