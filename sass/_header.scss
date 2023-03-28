@@ -15,10 +15,7 @@ header {
       list-style-type: none;
       padding: 1.5rem 4rem;
       font-size: 20px;
-      a {
-        text-decoration: none;
-        color: $link_color;
-      }
+      color: $link_color;
     }
   }
   .icon_section {
@@ -36,6 +33,11 @@ header {
   }
 }
 
-a:hover {
-  font-weight: bolder;
+li:hover {
+  opacity: 0.3;
+}
+
+button:hover,
+.icon:hover {
+  opacity: 0.6;
 }
