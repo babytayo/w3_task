@@ -27,7 +27,7 @@ header ul {
 header ul li {
   list-style-type: none;
   padding: 1.5rem 4rem;
-  font-size: 20px;
+  font-size: 18px;
   color: #886164;
 }
 header .icon_section {
@@ -44,13 +44,9 @@ header .icon_section p {
   padding: 0.3rem;
 }
 
-li:hover {
-  opacity: 0.3;
-}
-
 button:hover,
 .icon:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .lower_wrapper {
@@ -134,8 +130,8 @@ button:hover,
 }
 
 li:hover {
-  opacity: 0.1;
-  background: #fff;
+  opacity: 0.8;
+  background: rgba(148, 204, 236, 0.1);
 }
 
 .form_side {

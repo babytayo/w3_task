@@ -14,7 +14,7 @@ header {
     li {
       list-style-type: none;
       padding: 1.5rem 4rem;
-      font-size: 20px;
+      font-size: 18px;
       color: $link_color;
     }
   }
@@ -33,11 +33,7 @@ header {
   }
 }
 
-li:hover {
-  opacity: 0.3;
-}
-
 button:hover,
 .icon:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
