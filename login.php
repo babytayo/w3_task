@@ -16,7 +16,7 @@
           alt=""
         />
       </div>
-      <form onsubmit="login()">
+      <form action="connect.php" method="POST">
         <label for="email"><b>Email address:</b></label
         ><br />
         <input
@@ -34,15 +34,15 @@
         <input
           type="password"
           size="35"
-          id="phone"
-          name="phone"
+          id="password"
+          name="password"
           placeholder="not more than 6 charater"
           maxlength="6"
           required
         /><br />
         <br />
         <p class="forget_password">Forget Password</p>
-        <input type="submit" value="Sign in" id="submit" />
+        <input type="submit" value="Sign in" name="submit" id="submit" />
       </form>
     </div>
 

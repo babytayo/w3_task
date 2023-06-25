@@ -16,7 +16,7 @@
           alt=""
         />
       </div>
-      <form onsubmit="signUp()">
+      <form action="connect2.php" method="POST">
         <label for="name"><b>Name:</b></label
         ><br />
         <input
@@ -56,12 +56,12 @@
         <input
           type="radio"
           value="male"
-          id="male"
+          id="gender"
           name="gender"
           required
         /><label for="male"><b>Male</b></label
         ><br />
-        <input type="radio" value="female" id="female" name="gender" required />
+        <input type="radio" value="female" id="gender" name="gender" required />
         <label for="female"><b>Female</b></label
         ><br />
         <input type="radio" value="others" id="others" name="gender" required />
@@ -71,15 +71,15 @@
         <label for="password"><b>Password:</b></label
         ><br />
         <input type="password" size="35" id="password" maxlength="6"
-        name="password" placeholder="not more than 6 charater"" required /><br />
+        name="password" placeholder="not more than 6 charater" required /><br />
         <br />
         <label for="password"><b>Confirm Password:</b></label
         ><br />
         <input
           type="password"
           size="35"
-          id="password"
-          name="password"
+          id="password2"
+          name="password2"
           placeholder="confirm password"
           required
         /><br />
